@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ReactJS Trials</title>
+    <script src="./node_modules/react/dist/react-with-addons.js"></script>
+</head>
+<body>
+<br>
+<div id="app"></div>
+<br>
+
+<!-- include the webpack-dev-server script so our scripts get reloaded when we make a change -->
+<!-- we'll run the webpack dev server on port 8090, so make sure it is correct -->
+<script src="http://localhost:8091/webpack-dev-server.js"></script>
+
+<!-- include the bundle that contains all our scripts, produced by webpack -->
+<!-- the bundle is served by the webpack-dev-server, so serve it also from localhost:8090 -->
+<script type="text/javascript" src="assets/js/bundle.js"></script>
+
+<!--<script src="dist/js/bundle.js"></script>-->
+</body>
+</html>

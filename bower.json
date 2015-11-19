@@ -1,0 +1,24 @@
+{
+  "name": "reactjs-trials",
+  "version": "0.0.0",
+  "authors": [
+    "samir.damle <damlemail@gmail.com>"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "home.html",
+  "main": "./js/main.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.0"
+  }
+}
