@@ -4,6 +4,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+// Channel
 class Channel extends React.Component {
 
     onClick() {
@@ -15,6 +16,7 @@ class Channel extends React.Component {
     }
 }
 
+// ChannelList
 class ChannelList extends React.Component {
     render() {
         return  <ul>
@@ -27,6 +29,7 @@ class ChannelList extends React.Component {
     }
 }
 
+// ChannelFOrm
 class ChannelForm extends React.Component {
 
     constructor(props){
@@ -61,6 +64,7 @@ class ChannelForm extends React.Component {
     }
 }
 
+// ChannelSection
 class ChannelSection extends React.Component {
 
     constructor(props){
